@@ -363,6 +363,84 @@ for(var i = 0; i < alphabet.length; i++ ){
         console.log(alphabet[i] + " " + digits[x])
     }
 }
-             
+                                 //  CHAPTER 21
+var Name = 'shaheeralidanish'
+console.log(Name.toUpperCase())  ;
+                               
+var Name = 'shaheeralidanish'
+console.log(Name.toLowerCase()) ; 
+
+var password = "maynhbataonga"
+
+var changing = password.toUpperCase();
+
+var arr = ['karachi' , 'lahore' , 'islamabad', 'peshaware'];
+
+var changing = 0
+
+var result = arr[changing].toUpperCase();
+
+console.log(result);
+
+var cityName = "islaMaBAd"
+
+var changing = cityName[0].toUpperCase() + cityName.slice(1).toLowerCase();
+
+console.log(changing)
+
+                                   //   CHAPTER 22 TO 25
+                              
+var Name = "captain"
+
+var copyval = Name.slice(1,3)
+
+console.log(copyval);
+
+
+console.log(Name.length)
+
+var animal = 'elephant' 
+
+var changing = animal.slice(3,7)
+
+console.log(changing)
+
+var num  = "characters"
+
+console.log('num length is :' , num.length)
+
+var animal = "elephant"
+
+var second = animal.slice(1,5)
+
+console.log(second)
+
+var myString = "elephant";
+
+
+console.log("Sliced string:", myString.slice(1,-3));
+
+var text = "Aj saturday hy kal sunday hy"
+
+console.log(text.indexOf("hy"))
+
+var text = "Aj saturday hy kal sunday hy"
+console.log(text.lastIndexOf("hy"))
+
+text = "Let's go, joo, go!"
+
+console.log(text.lastIndexOf("go"))
+
+
+var myString = "example";
+var indexNum = 2;
+
+if (indexNum >= 0 && indexNum < myString.length) {
+    
+    console.log(`The character at index ${indexNum} exists in the string.`);
+} else {
+    console.log(`The character at index ${indexNum} does not exist in the string.`);
+}
+            
 
                                 // THE END 
